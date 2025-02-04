@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geolocalização com Google Maps</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8thrTIB8rHZdtOZEfNaQgxk33pxRT4i0"></script>
+    <script src="script.js" defer></script>
+</head>
+<body onload="initMap()">
+    <div id="ipForm">
+        <input type="text" id="ipInput" placeholder="Digite um endereço IP" />
+        <button onclick="showLocationFromIP()">Mostrar no Mapa</button>
+    </div>
+    <div id="map"></div>
+    <div id="info"></div>
+</body>
+</html>
+<!-- AIzaSyA8thrTIB8rHZdtOZEfNaQgxk33pxRT4i0 -->

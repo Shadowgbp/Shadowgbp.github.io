@@ -1,0 +1,19 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 20px; 
+}
+#map { 
+    height: 70vh; 
+    width: 100%; 
+}
+#ipForm {
+    margin-bottom: 20px;
+}
+#info {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
